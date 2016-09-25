@@ -1,0 +1,64 @@
+REM enabling APPs from unknown sources in Sansung J5 Android 6.0.1
+REM Author: D4kR4bb1t
+
+REM Back to Home screen
+DELAY 350
+ESC 
+DELAY 350
+ESC
+
+REM Selecting APPs
+DELAY 350
+DOWN 
+DELAY 350
+DOWN
+DELAY 350
+DOWN
+DELAY 350
+DOWN
+DELAY 350
+ENTER 
+
+REM Selecting search in APP menu
+DELAY 500
+ENTER 
+
+REM Open Config
+DELAY 500
+STRING Config
+DELAY 350
+DOWN
+DELAY 350
+ENTER
+
+REM Going to the Block and Security
+DELAY 500
+DOWN
+DELAY 350
+DOWN
+DELAY 350
+RIGHT
+DELAY 350
+ENTER
+
+REM enabling unknown sources
+DELAY 500
+DOWN 
+DELAY 350
+DOWN
+DELAY 350
+DOWN
+DELAY 350
+ENTER
+DELAY 500
+RIGHT
+DELAY 350
+ENTER
+
+REM Back to Home Screen
+DELAY 750
+ESC 
+DELAY 750
+ESC 
+DELAY 700
+ESC
